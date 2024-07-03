@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   font-family: "Roboto", sans-serif;
@@ -6,55 +7,69 @@
   padding: 0;
 }
 /* HAUT DE PAGE */
-header {
+h1 {
   text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  cursor: pointer;
+  font-family: "Montserrat Alternates";
+  font-size: 30px;
 }
+
+nav {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  height: 50px;
+  background-color: #fe0084;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background: #f38fc2;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+}
+
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* CONTENU DE LA PAGE */
 h2 {
   color: #fe0084;
 }
 
-nav {
-  text-transform: uppercase;
-  background-color: #fe0084;
-}
-nav > ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style-type: none;
-  padding: 2em;
-  font-weight: 500;
-}
-
-/* CONTENU DE LA PAGE */
 section {
   border: 1px solid grey;
   border-radius: 15px;
-  box-shadow: 5px 5px 15px 5px #868686;
+  box-shadow: 10px 10px 20px 10px #ebcadbee;
   padding: 2em;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 img {
-  padding: 1em;
   height: auto;
   width: 500px;
 }
-
-.canada > img,
-.japon > img,
-.cds > img {
+.canada > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 2em;
 }
 
 /* BAS DE PAGE */
 footer {
+  padding-top: 2em;
   text-align: center;
   color: white;
   background-color: #fe0084;
