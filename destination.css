@@ -8,7 +8,6 @@
 /* HAUT DE PAGE */
 header {
   text-align: center;
-  background-color: #fe0084;
 }
 h2 {
   color: #fe0084;
@@ -16,6 +15,7 @@ h2 {
 
 nav {
   text-transform: uppercase;
+  background-color: #fe0084;
 }
 nav > ul {
   display: flex;
