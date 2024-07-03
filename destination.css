@@ -39,6 +39,10 @@ a:hover {
   background: #f38fc2;
 }
 
+a:visited{
+  color: initial;
+}
+
 nav a {
   display: flex;
   align-items: center;

@@ -13,13 +13,19 @@ section{
     justify-content: space-around;
 }
 
-header>h1 {
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+h1 {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    /* cursor: pointer; */
+    cursor: pointer;
     font-family: "Montserrat Alternates";
-    color: black;
+    font-size: 30px;
+
 }
 
 header h1>a:visited{
@@ -41,12 +47,16 @@ nav {
     color: white;
     font-weight: bolder;
     font-size: 20px;
+
 }
 
 nav>p {
     cursor: pointer;
 }
 
+a:visited{
+    color: initial;
+}
 
 nav a:visited{color: white;}
 
@@ -104,3 +114,13 @@ nav a{
     display: flex;
     align-items: center;
 }
+
+/* BAS DE PAGE */
+footer {
+    padding-top: 2em;
+    text-align: center;
+    color: white;
+    background-color: #fe0084;
+    width: auto;
+    height: 5em;
+  }

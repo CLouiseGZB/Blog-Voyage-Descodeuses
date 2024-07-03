@@ -36,6 +36,10 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color: initial;
+}
+
 a:hover{
     background: #f38fc2;
 }
