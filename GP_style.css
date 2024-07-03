@@ -19,6 +19,11 @@ h1{
     height: fit-content;
     width: 300px;
     font-size: 24px;
+    color: #fe0084;
+}
+
+h2{
+    color: #fe0084;
 }
 
 figcaption{
@@ -33,6 +38,7 @@ img{
     filter: opacity(1);
     cursor: pointer;
     /* border: solid; */
+    box-shadow:0 12px 6px rgba(235, 202, 219, 0.932) ;
 
 }
 
