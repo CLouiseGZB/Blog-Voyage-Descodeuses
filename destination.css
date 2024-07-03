@@ -8,6 +8,7 @@
 /* HAUT DE PAGE */
 header {
   text-align: center;
+  background-color: #fe0084;
 }
 h2 {
   color: #fe0084;
@@ -22,6 +23,7 @@ nav > ul {
   justify-content: center;
   list-style-type: none;
   padding: 2em;
+  font-weight: 500;
 }
 
 /* CONTENU DE LA PAGE */
@@ -31,24 +33,31 @@ section {
   box-shadow: 5px 5px 15px 5px #868686;
   padding: 2em;
 }
-
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 img {
   padding: 1em;
-  border-radius: 5%;
-  justify-content: space-around;
   height: auto;
-  width: 300px;
+  width: 500px;
 }
 
-figcaption {
-  text-align: center;
+.canada > img,
+.japon > img,
+.cds > img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 /* BAS DE PAGE */
 footer {
-  border: 2px solid black;
+  text-align: center;
+  color: white;
+  background-color: #fe0084;
+  width: auto;
+  height: 5em;
 }
