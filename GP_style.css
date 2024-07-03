@@ -34,13 +34,13 @@ body{
 
 nav {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-evenly;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 50px;
     background-color: #fe0084;
     color: white;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 nav>p {
@@ -75,7 +75,7 @@ img{
     filter: opacity(1);
     cursor: pointer;
     /* border: solid; */
-    box-shadow:0 12px 6px rgba(235, 202, 219, 0.932) ;
+    box-shadow:0 12px 6px rgba(235, 202, 219, 0.933) ;
 
 }
 
@@ -92,4 +92,15 @@ div{
 
 }
 
+a{
+    text-decoration: none;
+}
 
+a:hover{
+    background: #f38fc2;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+}

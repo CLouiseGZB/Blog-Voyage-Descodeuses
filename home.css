@@ -20,18 +20,31 @@ h1 {
 
 nav {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-evenly;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 50px;
     background-color: #fe0084;
     color: white;
     font-weight: bolder;
     font-size: 20px;
 }
 
-nav>p {
-    cursor: pointer;
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background: #f38fc2;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+}
+
+nav a:visited{
+    color: white;
+    text-decoration: none;
 }
 
 /* MAIN */ 
